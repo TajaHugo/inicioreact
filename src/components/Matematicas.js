@@ -1,10 +1,10 @@
 function Matematicas(props) {
-    let {metodoDoble, metodoTriple} = props;
+    let {numero, metodoDoble, metodoTriple} = props;
 
     return (
         <div>
-            <button onClick={() => metodoDoble(7) }>Doble</button>
-            <button onClick={() => metodoTriple(6) }>Triple</button>
+            <button onClick={() => metodoDoble(numero) }>Doble</button>
+            <button onClick={() => metodoTriple(numero) }>Triple</button>
 
         </div>
     )

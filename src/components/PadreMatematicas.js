@@ -16,7 +16,7 @@ function PadreMatematicas(){
         <div>
             <h1>Comunicación entre Padres e Hijos</h1>
 
-            <Matematicas metodoDoble = {dobleNumero} metodoTriple = {tripleNumero}/>
+            <Matematicas numero = "4" metodoDoble = {dobleNumero} metodoTriple = {tripleNumero}/>
         </div>
     )
 }
