@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Sumarnumeros from './components/SumarNumeros/Sumarnumeros';
 import Saludopadre from './components/SaludoPadre';
 import PadreMatematicas from './components/PadreMatematicas';
+import Contador from './components/Contador';
+import Car from './components/Car';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +17,12 @@ root.render(
     <Sumarnumeros numero1="777" numero2="999"/> */}
     {/* <Saludopadre /> */}
 
-    <PadreMatematicas/>
+    {/* <PadreMatematicas/> */}
+
+    {/* <Contador/> */}
+    <Car marca = "Audi" modelo="Q8" velocidadMaxima="240" aceleracion="25"/>
+    <Car marca = "Mazda" modelo="MX5" velocidadMaxima="180" aceleracion="15"/>
+
   </React.StrictMode>
 );
 
